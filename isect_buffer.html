@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="js/processing.min.js"></script>
+	<script type="text/javascript">
+		function animateBubbles(id) {
+			vars pjs = Processing.getInstanceById(id);
+			console.log(pjs);
+			pjs.animate();
+		}
+	</script>
+</head>
+
+<body>
+	<canvas data-processing-sources="isect_backbuffer/isect_backbuffer.pde isect_backbuffer/MyCircle.pde">
+	</canvas>
+	</br>
+	<!-- <button type="button" onclick="animateBubbles('bubbles')"> button </button> -->
+
+</body>
+
+
+</html>
